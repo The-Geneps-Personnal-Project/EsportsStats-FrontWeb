@@ -49,36 +49,12 @@ const config: Config = {
           900: "#050505", // Darkest shade
         },
       },
-      typography: {
-        DEFAULT: {
-          css: {
-            h1: {
-              fontWeight: "700",
-              fontSize: "2.25rem",
-            },
-            h2: {
-              fontWeight: "700",
-              fontSize: "1.875rem",
-            },
-            h3: {
-              fontWeight: "700",
-              fontSize: "1.5rem",
-            },
-            h4: {
-              fontWeight: "700",
-              fontSize: "1.25rem",
-            },
-            h5: {
-              fontWeight: "700",
-              fontSize: "1rem",
-            },
-            h6: {
-              fontWeight: "700",
-              fontSize: "0.875rem",
-            },
-          },
-        },
-      },
+    },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
   },
   plugins: [],

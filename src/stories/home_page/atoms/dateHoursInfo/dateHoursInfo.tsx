@@ -1,19 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { format } from "date-fns";
 
 import { DateHoursInfoProps } from "./dateHoursInfo.props";
-import { Flex } from "@/stories/layout";
+import { Flex } from "../../../layout/flex";
 
 export const DateHoursInfo: React.FC<DateHoursInfoProps> = ({
-  date = Date.now().toString(),
-  hours = Date.now().toString(),
+  date,
+  size = "sm",
+  isLive = false,
 }) => {
-  console.log("date", date);
-  console.log("hours", hours);
+  const [formattedDate, setFormattedDate] = useState("");
+  const [formattedTime, setFormattedTime] = useState("");
+
+  useEffect(() => {
+    if (date) {
+      const formattedDate = format(date, "dd/MM");
+      setFormattedDate(formattedDate);
+
+      const formattedTime = format(date, "hh:mm a");
+      setFormattedTime(formattedTime);
+    }
+  }, [date]);
 
   return (
-    <Flex>
-      <div>{date}</div>
-      <div>{hours}</div>
+    <Flex
+      className={`dateHoursInfo ${isLive ? "live" : "onComing"} ${size === "md" ? "md" : "sm"}`}
+    >
+      <div className="typo-large">{formattedDate}</div>
+      <div className="typo-small">{formattedTime}</div>
     </Flex>
   );
 };

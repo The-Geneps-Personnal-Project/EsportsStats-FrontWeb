@@ -1,6 +1,7 @@
 import React from "react";
 
 export type DateHoursInfoProps = {
-  date?: string;
-  hours?: string;
+  date: Date;
+  isLive?: boolean;
+  size?: "sm" | "md";
 } & React.HTMLAttributes<HTMLDivElement>;

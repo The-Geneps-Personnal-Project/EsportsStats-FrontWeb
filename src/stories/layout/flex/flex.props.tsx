@@ -1,7 +1,7 @@
 import React from "react";
 
 export type FlexProps = {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   justifyContent?:
     | "flex-start"
     | "flex-end"
@@ -11,4 +11,5 @@ export type FlexProps = {
     | "space-evenly";
   alignItems?: "stretch" | "flex-start" | "flex-end" | "center" | "baseline";
   flexDirection?: "row" | "row-reverse" | "column" | "column-reverse";
+  className?: string;
 } & React.HTMLAttributes<HTMLDivElement>;

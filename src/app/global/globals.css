@@ -52,3 +52,29 @@ body {
     text-wrap: balance;
   }
 }
+
+.dateHoursInfo.sm {
+  height: 66px;
+}
+
+.dateHoursInfo.md {
+  height: 78px;
+}
+
+.onComing {
+  background: linear-gradient(90deg, #11009e 0%, #c424fc 100%);
+}
+
+.live {
+  background: linear-gradient(90deg, #d21d1d 50%, #fc24a6 100%);
+}
+
+.typo-large {
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+}
+
+.typo-small {
+  font-family: "Lexend", sans-serif;
+  font-size: 13px;
+}

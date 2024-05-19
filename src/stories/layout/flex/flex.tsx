@@ -1,4 +1,5 @@
 import React from "react";
+
 import { FlexProps } from "./flex.props";
 
 export const Flex: React.FC<FlexProps> = ({
@@ -6,6 +7,7 @@ export const Flex: React.FC<FlexProps> = ({
   justifyContent,
   alignItems,
   flexDirection,
+  className,
 }) => {
   const flexStyle = {
     display: "flex",
@@ -14,7 +16,11 @@ export const Flex: React.FC<FlexProps> = ({
     flexDirection: flexDirection || "column",
   };
 
-  return <div style={flexStyle}>{children}</div>;
+  return (
+    <div className={className} style={flexStyle}>
+      {children}
+    </div>
+  );
 };
 
 export default Flex;

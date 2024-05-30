@@ -8,12 +8,14 @@ export const Flex: React.FC<FlexProps> = ({
   alignItems,
   flexDirection,
   className,
+  style,
 }) => {
   const flexStyle = {
     display: "flex",
     justifyContent: justifyContent || "center",
     alignItems: alignItems || "center",
     flexDirection: flexDirection || "column",
+    ...style,
   };
 
   return (

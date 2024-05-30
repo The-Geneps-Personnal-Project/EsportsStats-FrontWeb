@@ -26,8 +26,12 @@ export const DateHoursInfo: React.FC<DateHoursInfoProps> = ({
     <Flex
       className={`dateHoursInfo ${isLive ? "live" : "onComing"} ${size === "md" ? "md" : "sm"}`}
     >
-      <div className="typo-large">{formattedDate}</div>
-      <div className="typo-small">{formattedTime}</div>
+      <div className={`typo-large ${size === "md" ? "md" : ""}`}>
+        {formattedDate}
+      </div>
+      <div className={`typo-small ${size === "md" ? "md" : ""}`}>
+        {formattedTime}
+      </div>
     </Flex>
   );
 };

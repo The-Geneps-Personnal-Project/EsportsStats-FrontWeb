@@ -72,9 +72,21 @@ body {
 .typo-large {
   font-family: "Lexend", sans-serif;
   font-size: 20px;
+  font-weight: 600;
+}
+
+.typo-large.md {
+  font-family: "Lexend", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
 }
 
 .typo-small {
   font-family: "Lexend", sans-serif;
   font-size: 13px;
+}
+
+.typo-small.md {
+  font-family: "Lexend", sans-serif;
+  font-size: 14px;
 }

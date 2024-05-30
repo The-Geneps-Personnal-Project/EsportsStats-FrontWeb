@@ -54,11 +54,11 @@ body {
 }
 
 .dateHoursInfo.sm {
-  height: 66px;
+  height: fit-content;
 }
 
 .dateHoursInfo.md {
-  height: 78px;
+  height: fit-content;
 }
 
 .onComing {
@@ -89,4 +89,26 @@ body {
 .typo-small.md {
   font-family: "Lexend", sans-serif;
   font-size: 14px;
+}
+
+.teamScore .sm {
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: fit-content;
+}
+
+.teamScore .md {
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  height: fit-content;
+}
+
+.teamScoreImage.sm {
+  height: 20px;
+}
+
+.teamScoreImage.md {
+  height: 25px;
 }

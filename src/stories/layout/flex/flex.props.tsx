@@ -12,4 +12,5 @@ export type FlexProps = {
   alignItems?: "stretch" | "flex-start" | "flex-end" | "center" | "baseline";
   flexDirection?: "row" | "row-reverse" | "column" | "column-reverse";
   className?: string;
+  style?: React.CSSProperties;
 } & React.HTMLAttributes<HTMLDivElement>;

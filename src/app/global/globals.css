@@ -54,11 +54,11 @@ body {
 }
 
 .dateHoursInfo.sm {
-  height: fit-content;
+  height: auto;
 }
 
 .dateHoursInfo.md {
-  height: fit-content;
+  height: auto;
 }
 
 .onComing {
@@ -111,4 +111,8 @@ body {
 
 .teamScoreImage.md {
   height: 25px;
+}
+
+.shortGame {
+  width: fit-content;
 }

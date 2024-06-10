@@ -1,7 +1,7 @@
 import { Meta } from "@storybook/react";
 
-import { DateHoursInfo } from "../dateHoursInfo";
-import { DateHoursInfoProps } from "../dateHoursInfo.props";
+import { DateHoursInfo } from "../DateHoursInfo";
+import { DateHoursInfoProps } from "../DateHoursInfo.props";
 
 export const DateHoursInfoStory = (args: DateHoursInfoProps) => (
   <DateHoursInfo {...args} />

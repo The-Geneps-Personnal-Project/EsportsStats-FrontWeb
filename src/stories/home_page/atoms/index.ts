@@ -1,2 +1,2 @@
-export * from "./dateHoursInfo";
+export * from "./DateHoursInfo";
 export * from "./TeamScore";

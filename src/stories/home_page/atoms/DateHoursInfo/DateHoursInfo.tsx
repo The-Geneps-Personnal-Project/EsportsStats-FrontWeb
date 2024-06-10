@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { format } from "date-fns";
 
-import { DateHoursInfoProps } from "./dateHoursInfo.props";
+import { DateHoursInfoProps } from "./DateHoursInfo.props";
 import { Flex } from "../../../layout/flex";
 
 export const DateHoursInfo: React.FC<DateHoursInfoProps> = ({

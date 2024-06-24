@@ -8,6 +8,7 @@ export const DateHoursInfo: React.FC<DateHoursInfoProps> = ({
   date,
   size = "sm",
   isLive = false,
+  style,
 }) => {
   const [formattedDate, setFormattedDate] = useState("");
   const [formattedTime, setFormattedTime] = useState("");
@@ -25,6 +26,7 @@ export const DateHoursInfo: React.FC<DateHoursInfoProps> = ({
   return (
     <Flex
       className={`dateHoursInfo ${isLive ? "live" : "onComing"} ${size === "md" ? "md" : "sm"}`}
+      style={style}
     >
       <div className={`typo-large ${size === "md" ? "md" : ""}`}>
         {formattedDate}

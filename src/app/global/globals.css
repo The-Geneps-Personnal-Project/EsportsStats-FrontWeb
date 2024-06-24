@@ -116,3 +116,25 @@ body {
 .shortGame {
   width: fit-content;
 }
+
+.leagueTitle {
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 66px;
+  width: auto;
+}
+
+.leagueLogoContainer {
+  background-color: white;
+  height: inherit;
+  width: 76px;
+}
+
+.leagueLogo {
+  height: 60px;
+}
+
+.leagueText {
+  margin-left: 40px;
+}

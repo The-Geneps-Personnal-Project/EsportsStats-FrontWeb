@@ -9,6 +9,7 @@ export const Flex: React.FC<FlexProps> = ({
   flexDirection,
   className,
   style,
+  onClick,
 }) => {
   const flexStyle = {
     display: "flex",
@@ -19,7 +20,7 @@ export const Flex: React.FC<FlexProps> = ({
   };
 
   return (
-    <div className={className} style={flexStyle}>
+    <div className={className} style={flexStyle} onClick={onClick}>
       {children}
     </div>
   );

@@ -116,3 +116,16 @@ body {
 .shortGame {
   width: fit-content;
 }
+
+.footerTournamentList {
+  font-family: "Lexend", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 7px 27px;
+  cursor: pointer;
+}
+
+.footerTournamentListContainer {
+  margin-right: 10px;
+}

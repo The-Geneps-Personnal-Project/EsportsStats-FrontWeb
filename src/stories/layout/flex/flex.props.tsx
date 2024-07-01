@@ -13,4 +13,5 @@ export type FlexProps = {
   flexDirection?: "row" | "row-reverse" | "column" | "column-reverse";
   className?: string;
   style?: React.CSSProperties;
+  onClick?: () => void;
 } & React.HTMLAttributes<HTMLDivElement>;

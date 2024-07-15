@@ -8,7 +8,8 @@ export type FlexProps = {
     | "center"
     | "space-between"
     | "space-around"
-    | "space-evenly";
+    | "space-evenly"
+    | "stretch";
   alignItems?: "stretch" | "flex-start" | "flex-end" | "center" | "baseline";
   flexDirection?: "row" | "row-reverse" | "column" | "column-reverse";
   className?: string;

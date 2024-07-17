@@ -129,3 +129,13 @@ body {
 .footerTournamentListContainer {
   margin-right: 10px;
 }
+
+.textArrowButton {
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.textArrowButtonText {
+  padding-right: 10px;
+}

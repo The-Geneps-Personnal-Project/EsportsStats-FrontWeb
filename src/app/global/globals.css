@@ -129,3 +129,9 @@ body {
 .footerTournamentListContainer {
   margin-right: 10px;
 }
+
+.genericDates {
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
